@@ -1,0 +1,38 @@
+.bg {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+
+  background-size: cover;
+  background-color: rgba(119, 77, 136, 0.795);
+}
+.icon {
+  font-size: 50px;
+  color: rgb(32, 11, 23);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.title {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.tasks-container {
+  background-color: rgba(184, 161, 190, 0.795);
+  background-size: cover;
+  height: 100vh;
+}
+@media screen and (min-height: 768px) {
+  .title {
+    font-size: 30px;
+  }
+}
